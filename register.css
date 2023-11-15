@@ -1,0 +1,235 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+header {
+    height: 80px;
+}
+
+.menu a{
+    position: relative;
+    right: 20px;
+    float: right;
+}
+
+header a {
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+header a:hover {
+    background: #d0cdcd;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background: blue;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    top: 130px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.sidebar {
+    height: 430px;
+    width: 30%;
+    background-color: rgb(200, 204, 199);
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar a {
+    top: 50px;
+    left: 100px;
+    position: relative;
+    font-size: 22px;
+    line-height: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    height: 430px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+}
+
+.atas {
+    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.atas .box1{
+   padding: 20px;
+}
+
+.atas .box1 input{
+    width: 120px;
+    height: 20px;
+    border: none;
+    background: rgb(177, 174, 174);
+}
+
+.atas {
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.atas .box2{
+   padding: 20px;
+}
+
+.atas .box2 input{
+    width: 120px;
+    height: 20px;
+    border: none;
+    background: rgb(177, 174, 174);
+}
+
+.atas {
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.atas .box3{
+   padding: 20px;
+}
+
+.atas .box3 input{
+    width: 120px;
+    height: 20px;
+    border: none;
+    background: rgb(177, 174, 174);
+}
+
+.tengah {
+    margin-top: -50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.tengah .box1 input{
+    width: 450px;
+    height: 20px;
+    border: none;
+    background: rgb(177, 174, 174);
+}
+
+.tengah2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.tengah2 .box1{
+    position: relative;
+    right: 25px;
+    padding: 20px;
+}
+
+.tengah2 .box1 input{
+    width: 180px;
+    height: 20px;
+    border: none;
+    background: rgb(177, 174, 174);
+}
+
+.tengah2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.tengah2 .box2{
+    left: 22px;
+    position: relative;
+    padding: 20px;
+}
+
+.tengah2 .box2 input{
+    width: 180px;
+    height: 20px;
+    border: none;
+    background: rgb(177, 174, 174);
+}
+
+.bawah {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.bawah .box1{
+    position: relative;
+    right: 65px;
+    background: rgb(177, 174, 174);
+    width: 140px;
+    height: 30px;
+}
+
+.bawah .box1 a {
+    color: black;
+    left: 28px;
+    top: 6px;
+    position: relative;
+    text-decoration: none;
+}
+
+.bawah .box2{
+    position: relative;
+    left: 65px;
+    background: rgb(177, 174, 174);
+    width: 140px;
+    height: 30px;
+}
+
+.bawah .box2 a {
+    color: black;
+    left: 28px;
+    top: 6px;
+    position: relative;
+    text-decoration: none;
+}
+.footer {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    background: blue;
+}
